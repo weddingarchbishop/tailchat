@@ -149,17 +149,6 @@ export const builtinPlugins: PluginManifest[] = _compact([
     "author": "moonrailgun",
     "description": "Add livekit to provide meeting and live streaming feature",
     "requireRestart": true
-  },
-  {
-    "label": "Audio and video service (WIP)",
-    "label.zh-CN": "音视频服务(WIP)",
-    "name": "com.msgbyte.meeting",
-    "url": "/plugins/com.msgbyte.meeting/index.js",
-    "version": "0.0.0",
-    "author": "moonrailgun",
-    "description": "Provide audio and video communication services for Tailchat",
-    "description.zh-CN": "为Tailchat提供音视频通讯的服务",
-    "requireRestart": true
   }
   // 因为大段内容可能会有性能问题暂时移除，用户可以按需安装
   // isOffical && {
