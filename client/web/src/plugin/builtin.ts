@@ -142,8 +142,8 @@ export const builtinPlugins: PluginManifest[] = _compact([
   {
     "label": "livekit",
     "name": "com.msgbyte.livekit",
-    "url": "/plugins/com.msgbyte.livekit/index.js",
-    "icon": "/plugins/com.msgbyte.livekit/assets/icon.png",
+    "url": "{BACKEND}/plugins/com.msgbyte.livekit/index.js",
+    "icon": "{BACKEND}/plugins/com.msgbyte.livekit/assets/icon.png",
     "documentUrl": "https://tailchat.msgbyte.com/docs/advanced-usage/plugins/com.msgbyte.livekit",
     "version": "0.0.0",
     "author": "moonrailgun",
