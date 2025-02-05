@@ -139,6 +139,28 @@ export const builtinPlugins: PluginManifest[] = _compact([
     description: 'Add chatgpt into Tailchat',
     requireRestart: true,
   },
+  {
+    "label": "livekit",
+    "name": "com.msgbyte.livekit",
+    "url": "{BACKEND}/plugins/com.msgbyte.livekit/index.js",
+    "icon": "{BACKEND}/plugins/com.msgbyte.livekit/assets/icon.png",
+    "documentUrl": "https://tailchat.msgbyte.com/docs/advanced-usage/plugins/com.msgbyte.livekit",
+    "version": "0.0.0",
+    "author": "moonrailgun",
+    "description": "Add livekit to provide meeting and live streaming feature",
+    "requireRestart": true
+  },
+  {
+    "label": "Audio and video service (WIP)",
+    "label.zh-CN": "音视频服务(WIP)",
+    "name": "com.msgbyte.meeting",
+    "url": "{BACKEND}/plugins/com.msgbyte.meeting/index.js",
+    "version": "0.0.0",
+    "author": "moonrailgun",
+    "description": "Provide audio and video communication services for Tailchat",
+    "description.zh-CN": "为Tailchat提供音视频通讯的服务",
+    "requireRestart": true
+  }
   // 因为大段内容可能会有性能问题暂时移除，用户可以按需安装
   // isOffical && {
   //   label: 'Url metadata display',
